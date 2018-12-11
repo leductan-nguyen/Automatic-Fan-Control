@@ -49,7 +49,7 @@ void setup()
   // Since the buffer is intialized with an Adafruit splashscreen
   // internally, this will display the splashscreen.
   display.display();
-  delay(500);
+  delay(3000);
 }
 
 void loop()
