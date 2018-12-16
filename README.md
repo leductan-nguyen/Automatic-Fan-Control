@@ -13,7 +13,10 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
 - SCL ---> Arduino A5
 - SDA ---> Arduino A4
 
+> !!! Be careful pins positions are not the same 
+
+`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzcxMzg1MCwxMjYyODk3ODM3XX0=
+eyJoaXN0b3J5IjpbMTUyMTU1NTA2MiwxMjYyODk3ODM3XX0=
 -->
