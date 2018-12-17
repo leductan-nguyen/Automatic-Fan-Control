@@ -10,7 +10,7 @@
 #include <Adafruit_SSD1306.h>
 
 // For DHT temp and humidity sensor
-#include <dht.h>
+#include "dht.h"
 
 #define OLED_RESET 4
 Adafruit_SSD1306 display(OLED_RESET);
@@ -32,6 +32,9 @@ constexpr uint8_t relay = 3;
 int16_t humidity; //Stores humidity value
 int16_t temp;     //Stores temperature value
 
+/**
+ * This function runs 1 time when the board turns on
+ */
 void setup()
 {
   // Relay Pin Configuration
@@ -52,6 +55,9 @@ void setup()
   delay(3000);
 }
 
+/**
+ * This function loops infinitely
+ */
 void loop()
 {
   // Read data and store it to variables hum and temp
@@ -74,6 +80,13 @@ void loop()
   delay(2000);
 }
 
+/**
+ * This function read inputs values (t, h) and 
+ * display these values, also adding the title
+ * 
+ * @param t : input temperature
+ * @param h : input humidity
+ */
 void displayTempAndHumidity(int16_t t, int16_t h)
 {
   display.clearDisplay();
