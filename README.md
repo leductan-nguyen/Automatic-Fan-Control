@@ -4,24 +4,32 @@
 #### 1. Arduino <---> DHT11 
 There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations on the pins :
 ![DHT11 pinout](https://raw.githubusercontent.com/leductan-nguyen/Automatic-Fan-Control/master/docs/DHT11–Temperature-Sensor-Pinout.jpg)
-- VCC(1) ---> Arduino 5V
-- DATA (2) ---> Arduino PIN 2
-- GND (4) ---> Arduino GND
+ - VCC(1) ---> Arduino 5V
+ - DATA (2) ---> Arduino PIN 2
+ - GND (4) ---> Arduino GND
 #### 2. Arduino <---> OLED
-- VCC ---> Arduino 5V
-- GND ---> Arduino GND
-- SCL ---> Arduino A5
-- SDA ---> Arduino A4
+ - VCC ---> Arduino 5V
+ - GND ---> Arduino GND
+ - SCL ---> Arduino A5
+ - SDA ---> Arduino A4
 
 **!!! Be careful OLED pins positions are not the same on different versions**
 #### 3. Arduino <---> Relay
-- VCC ---> Arduino VCC
-- GND ---> Arduino GND
-- S (Signal) ---> Arduino PIN 3
+ - VCC ---> Arduino VCC
+ - GND ---> Arduino GND
+ - S (Signal) ---> Arduino PIN 3
 #### 4. Fan <---> Relay
-Depends on which behavior that you want : always ON or always OFF
+Depends on which behavior that you want : 
+
+ - List item
+
+**always ON** 
+![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_on.PNG)
+
+ or always OFF
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzk5OTQ0OTEsMTgzMTYxNDQ5LDEyNj
-I4OTc4MzddfQ==
+eyJoaXN0b3J5IjpbLTQzNjg5NTYyOCwtMTE3OTk5NDQ5MSwxOD
+MxNjE0NDksMTI2Mjg5NzgzN119
 -->
