@@ -15,12 +15,13 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
 
 **!!! Be careful OLED pins positions are not the same on different versions**
 #### 3. Arduino <---> Relay
- - VCC ---> Arduino VCC
+ - VCC ---> Arduino 5V
  - GND ---> Arduino GND
  - S (Signal) ---> Arduino PIN 3
 #### 4. Power <----> Fan <---> Relay
-- Power GND ---> Fan GND
--  
+- Power Neutral ---> Fan Neutral
+- Power Line ---> Relay NO or NC
+- Relay C 
 Depends on which behavior that you want : 
 
  - **always ON** 
@@ -31,6 +32,6 @@ Depends on which behavior that you want :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODUwODIwMiwtMTE3OTk5NDQ5MSwxOD
-MxNjE0NDksMTI2Mjg5NzgzN119
+eyJoaXN0b3J5IjpbNTQyNzE2MTcwLC0xMTc5OTk0NDkxLDE4Mz
+E2MTQ0OSwxMjYyODk3ODM3XX0=
 -->
