@@ -3,7 +3,8 @@
 ![Diagram](https://raw.githubusercontent.com/leductan-nguyen/Automatic-Fan-Control/master/docs/diagram.png)
 #### 1. Arduino <---> DHT11 
 There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations on the pins :
-![DHT11 pinout](https://raw.githubusercontent.com/leductan-nguyen/Automatic-Fan-Control/master/docs/DHT11–Temperature-Sensor-Pinout.jpg =400x)
+<img src="https://raw.githubusercontent.com/leductan-nguyen/Automatic-Fan-Control/master/docs/DHT11–Temperature-Sensor-Pinout.png" width="400" height="350" alt="DHT11 pinout">
+
  - VCC(1) ---> Arduino 5V
  - DATA (2) ---> Arduino PIN 2
  - GND (4) ---> Arduino GND
@@ -19,8 +20,11 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
  - GND ---> Arduino GND
  - S (Signal) ---> Arduino PIN 3
 #### 4. Power <----> Fan <---> Relay
+
 Detail abour power input jack :
-![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/DC_power_input_jack.jpg =450x)
+
+<img src="https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/DC_power_input_jack.png" width="500" height="420" alt="input_jack">
+
 - Power Neutral ---> Fan Neutral
 - Power Line ---> Relay C
 - Relay NC or NO ---> Fan Line
@@ -28,13 +32,16 @@ Detail abour power input jack :
 Depends on which behavior that you want : 
 
  - **always ON** 
+
 ![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_on.PNG)
 
  - **always OFF**
+
 ![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_off.PNG)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4ODk2NjIxLDE1Njg2NTE2MDgsLTExNz
-k5OTQ0OTEsMTgzMTYxNDQ5LDEyNjI4OTc4MzddfQ==
+eyJoaXN0b3J5IjpbLTgxNzk0NDgwNCwyNzc4MTMwMTAsLTEwMz
+c2ODk2MDMsMjg4ODk2NjIxLDE1Njg2NTE2MDgsLTExNzk5OTQ0
+OTEsMTgzMTYxNDQ5LDEyNjI4OTc4MzddfQ==
 -->
