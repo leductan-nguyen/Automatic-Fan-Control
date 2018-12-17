@@ -22,6 +22,7 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
 #### 4. Power <----> Fan <---> Relay
 
 Detail abour power input jack :
+
 <img src="https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/DC_power_input_jack.png" width="500" height="420" alt="input_jack">
 
 - Power Neutral ---> Fan Neutral
@@ -38,7 +39,7 @@ Depends on which behavior that you want :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3ODEzMDEwLC0xMDM3Njg5NjAzLDI4OD
-g5NjYyMSwxNTY4NjUxNjA4LC0xMTc5OTk0NDkxLDE4MzE2MTQ0
-OSwxMjYyODk3ODM3XX0=
+eyJoaXN0b3J5IjpbNjQxODgyMjQsMjc3ODEzMDEwLC0xMDM3Nj
+g5NjAzLDI4ODg5NjYyMSwxNTY4NjUxNjA4LC0xMTc5OTk0NDkx
+LDE4MzE2MTQ0OSwxMjYyODk3ODM3XX0=
 -->
