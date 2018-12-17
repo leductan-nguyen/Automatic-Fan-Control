@@ -1,7 +1,7 @@
 # Raion Automatic Fan Control
 
-PDF version : [download](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/dist/README.pdf)
-Arduino IDE files : [download](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/dist/automatic_fan_control.zip)
+- PDF version : [download](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/dist/README.pdf)
+- Arduino IDE files : [download](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/dist/automatic_fan_control.zip)
 
 ## Diagram
 ![Diagram](https://raw.githubusercontent.com/leductan-nguyen/Automatic-Fan-Control/master/docs/diagram.png)
