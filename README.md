@@ -18,7 +18,9 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
  - VCC ---> Arduino VCC
  - GND ---> Arduino GND
  - S (Signal) ---> Arduino PIN 3
-#### 4. Fan <---> Relay
+#### 4. Power <----> Fan <---> Relay
+- Power GND ---> Fan GND
+-  
 Depends on which behavior that you want : 
 
  - **always ON** 
@@ -29,6 +31,6 @@ Depends on which behavior that you want :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mjc1MzQsLTExNzk5OTQ0OTEsMTgzMT
-YxNDQ5LDEyNjI4OTc4MzddfQ==
+eyJoaXN0b3J5IjpbMTk0ODUwODIwMiwtMTE3OTk5NDQ5MSwxOD
+MxNjE0NDksMTI2Mjg5NzgzN119
 -->
