@@ -26,7 +26,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 // DHT constant
 dht DHT;
 // Relay pin
-constexpr uint8_t relay = 3;
+constexpr uint8_t relay = 3; // define what pin to control the relay
 
 // Variables
 int16_t humidity; //Stores humidity value

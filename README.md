@@ -37,11 +37,16 @@ Depends on which behavior that you want :
 
  - **always ON** 
 
-![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_on.PNG)
+![Always behavior](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_on.PNG)
 
  - **always OFF**
 
-![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_off.PNG)
+![Always OFF behavior](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_off.PNG)
+
+## Important parameters in code
+- **DHT11_PIN** : set the Arduino PIN for reading data signal from DHT sensor
+- **TEMP_THRESHOLD** : define temperature at which we turn on the fan
+- **relay** : define Arduino PIN for control state of the relay
 
 
 <!--stackedit_data:
