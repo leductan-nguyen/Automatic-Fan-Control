@@ -21,15 +21,14 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
 #### 4. Fan <---> Relay
 Depends on which behavior that you want : 
 
- - List item
-
-**always ON** 
+ - **always ON** 
 ![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_on.PNG)
 
- or always OFF
+ - **always OFF**
+![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_off.PNG)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjg5NTYyOCwtMTE3OTk5NDQ5MSwxOD
-MxNjE0NDksMTI2Mjg5NzgzN119
+eyJoaXN0b3J5IjpbLTY0Mjc1MzQsLTExNzk5OTQ0OTEsMTgzMT
+YxNDQ5LDEyNjI4OTc4MzddfQ==
 -->
