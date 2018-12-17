@@ -32,14 +32,16 @@ Detail abour power input jack :
 Depends on which behavior that you want : 
 
  - **always ON** 
+
 ![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_on.PNG)
 
  - **always OFF**
+
 ![enter image description here](https://github.com/leductan-nguyen/Automatic-Fan-Control/raw/master/docs/always_off.PNG)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODgyMjQsMjc3ODEzMDEwLC0xMDM3Nj
-g5NjAzLDI4ODg5NjYyMSwxNTY4NjUxNjA4LC0xMTc5OTk0NDkx
-LDE4MzE2MTQ0OSwxMjYyODk3ODM3XX0=
+eyJoaXN0b3J5IjpbLTgxNzk0NDgwNCwyNzc4MTMwMTAsLTEwMz
+c2ODk2MDMsMjg4ODk2NjIxLDE1Njg2NTE2MDgsLTExNzk5OTQ0
+OTEsMTgzMTYxNDQ5LDEyNjI4OTc4MzddfQ==
 -->
