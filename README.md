@@ -19,8 +19,9 @@ There are 2 types of DHT11 sensor : 4 pins and 3 pins. Here are the infomations 
 - GND ---> Arduino GND
 - S (Signal) ---> Arduino PIN 3
 #### 4. Fan <---> Relay
-Depends on 
+Depends on w
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTYxNDQ5LDEyNjI4OTc4MzddfQ==
+eyJoaXN0b3J5IjpbMTAxNzI3MzQyNCwxODMxNjE0NDksMTI2Mj
+g5NzgzN119
 -->
